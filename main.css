@@ -42,7 +42,7 @@ body{
     display: block;
     width: 100vmin;
     margin: 0 auto;
-    margin-bottom: 10vmin;
+    margin-bottom: 5vmin;
 }
 .box{
     width: 30vmin;
@@ -179,6 +179,7 @@ textarea{
     box-shadow: 1vmin 1vmin 1.5vmin 0vmin rgba(0, 0, 0, var(--opacity));
     transition: all 0.2s ease;
     margin: 0 auto;
+    margin-bottom: 10vmin;
 }
 .shuffleBtn:active{
     transform: scale(0.95);
