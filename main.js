@@ -99,5 +99,11 @@ function hide_show(){
 
     prizes.classList.toggle('none');
 }
+
+function copy() {
+  var copyText = 'https://github.com/S3N1OR/black-box';
+
+  navigator.clipboard.writeText(copyText);
+}
   
 loadFromLocalStorage();

@@ -13,6 +13,23 @@ body{
 .wrapper{
     padding: 10vmin;
 }
+.source{
+    position: fixed;
+    left: 0;
+    bottom: 5vmin;
+    padding: 2vmin;
+    background-color: rgba(92, 92, 92, .5);
+    border-bottom-right-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+}
+.copy{
+    background-color: #ffffff51;
+    padding: 1vmin;
+    border-radius: 2vmin;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2vmin;
+}
 .logo{
     display: block;
     width: 100vmin;
