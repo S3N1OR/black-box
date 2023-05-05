@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deesloy || Чёрный ящик</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="deesloy.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <img src="deesloy-logo.png" alt="" class="logo">
+        <div id="controls">
+            <button class="btn btnPlus" onclick="addBox()">Добавить ящик</button>
+            <div class="count"></div>
+            <button class="btn btnMinus" onclick="removeBox()">Убрать ящик</button>
+        </div>
+        <div id="boxes">
+            <div class="box box-hide" onclick="showPrize(1)"><div class="box-text">Ящик №1</div></div>
+        </div>
+        <button onclick="hide_show();" class="hide-show"><img class="eye" src="eye.png" alt=""></button>
+        <div id="prizes" class="none">
+            <textarea id="prizesTextarea"></textarea>
+        </div>      
+        <button class="shuffleBtn" onclick="shufflePrizes()">Перемешать призы</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
