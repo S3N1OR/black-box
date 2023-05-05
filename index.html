@@ -11,19 +11,19 @@
 <body>
     <div class="wrapper">
         <img src="deesloy-logo.png" alt="" class="logo">
+        <div id="boxes">
+            <div class="box box-hide" onclick="showPrize(1)"><div class="box-text">Ящик №1</div></div>
+        </div>
         <div id="controls">
             <button class="btn btnPlus" onclick="addBox()">Добавить ящик</button>
             <div class="count"></div>
             <button class="btn btnMinus" onclick="removeBox()">Убрать ящик</button>
         </div>
-        <div id="boxes">
-            <div class="box box-hide" onclick="showPrize(1)"><div class="box-text">Ящик №1</div></div>
-        </div>
         <button onclick="hide_show();" class="hide-show"><img class="eye" src="eye.png" alt=""></button>
+        <button class="shuffleBtn" onclick="shufflePrizes()">Перемешать призы</button>
         <div id="prizes" class="none">
             <textarea id="prizesTextarea"></textarea>
         </div>      
-        <button class="shuffleBtn" onclick="shufflePrizes()">Перемешать призы</button>
         <div class="source">
             <span>Исхoдный код <a href="https://github.com/S3N1OR/black-box" target="_blank">тут</a></span>
             <button class="copy" onclick="copy()">copy</button>
