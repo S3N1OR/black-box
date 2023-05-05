@@ -14,21 +14,23 @@ body{
     padding: 10vmin;
 }
 .source{
-    position: fixed;
-    left: 0;
-    top: 5vmin;
-    padding: 2vmin;
-    background-color: rgba(92, 92, 92, .5);
-    border-bottom-right-radius: 2vmin;
-    border-top-right-radius: 2vmin;
+    position: absolute;
+    top: -2vmin;
+    left: 1vmin;
+    font-size: 1.5vmin;
+    display: flex;
+    width: 30vmin;
+    height: 10vmin;
+    align-items: center;
+    line-height: 1;
+    opacity: 0.75;
 }
 .copy{
-    background-color: #ffffff51;
+    background-color: #2e2e2e51;
     padding: 1vmin;
     border-radius: 2vmin;
     display: block;
-    margin: 0 auto;
-    margin-top: 2vmin;
+    margin-left: 2vmin;
 }
 .logo{
     display: block;
